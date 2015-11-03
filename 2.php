@@ -41,4 +41,17 @@ if($omikuji==1){
 	echo "大凶";
 }
 echo "\n \n \n";
+
+
+echo "西暦→平成：\n";
+$year = rand(1989,2015);
+echo "西暦".$year."年は";
+$hesei = $year - 1988;
+if($year==1989) {
+	echo "平成元年です";
+}else {
+	echo "平成".$hesei."年です";
+}
+echo "\n \n \n";
+
 ?>
